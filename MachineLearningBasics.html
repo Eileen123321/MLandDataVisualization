@@ -1,0 +1,93 @@
+<section>
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Basics</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<style>
+  body{
+    background-color: #cb9fc9;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+
+<body>
+  <nav class="navbar">
+   
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="MachineLearningBasics.html">ML Basics</a></li>
+      <li><a href="visualization.html">Visualization</a></li>
+      <li><a href="resources.html">External Guides & Resources</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+    <img src="chatgpt2.png" alt="Machine Learning Image" class="mlpic1">
+
+<div class = "A4">
+ <h2> Machine Learning Basics</h2>
+
+
+
+ <h3>Different Types of Machine Learning</h3>
+    <p>Supervised Learning - A type of machine learning where the model learns from labeled data and patterns. For example, Regression and Classification.</p>
+
+    <p>Unsupervised Learning - A type of machine learning where the model learns from unlabeled data and discovers patterns or groups on its own. For example, Clustering.</p>
+
+    <p>Reinforcement Learning - A type of machine learning where an agent learns by interacting with an environment, receiving rewards or penalties, and improving its decisions over time.</p>
+
+<h4>Regression and Classification</h4>
+    <p> Regression in machine learning is a type of supervised learning that focuses on predicting continuous numerical values. It works by studying the relationship between a target variable, also called the dependent variable, and one or more input features, known as independent variables. The model learns how changes in the features influence the target, allowing it to make accurate predictions on new data. Regression is commonly used for tasks such as forecasting prices, estimating trends, and analyzing how different factors contribute to an outcome. It is one of the foundational techniques in machine learning because it helps reveal patterns in data and provides a way to understand and quantify relationships between variables.</p>
+
+<ul class = "regression-list">
+    <li>Linear Regression: Predicts a continuous value by fitting a straight line between the input features and the target variable. It works best when the relationship is mostly linear.</li>
+
+    <li>Polynomial Regression: Extends linear regression by fitting a curved line. It is useful when the data shows a non-linear pattern that a straight line cannot capture.</li>
+
+    <li>Lasso Regression: Similar to Ridge but forces some coefficients to become zero, which helps with feature selection and simplifies the model.</li>
+
+    <li>Logistic Regression: Used for classification tasks where the output is a category such as yes/no or 0/1. It predicts the probability of an outcome rather than a number.</li>
+
+    <li>Random Forest Regression: Uses many decision trees and averages their predictions for more accurate and stable results, especially when data is complex or noisy.</li>
+</ul>
+
+<p> In machine learning, classification is used to predict which category an input belongs to by learning from labeled data. In simpler terms, it is the process of teaching a computer to recognize patterns so it can place new information into the correct group. Features are the inputs or characteristics given to the model, while labels are the correct answers the model learns from in order to make predictions. For example, if we want a model to tell the difference between fake news and real news, the features might be the words in the article, and the labels would be “fake” or “real.”</p>
+
+<ul class = "classification-list">
+   <li>Decision Tree: Sort data by following simple rule-based branches. </li>
+   <li>K-Nearest Neighbors: Assign a label by checking which existing examples are closest</li>
+   <li>Naive Bayes: Predicts the most likely label using probability from feature pattern.</li>
+   <li>Random Forests: Improve accuracy by combining the results of many decision trees.</li>
+
+</ul>
+
+  <img src="RC.png" alt="Regression and Classification" class="mlpic1">
+    <p class="imgsource">Image Source: GeeksforGeeks</p>
+</div>
+
+<div class="A4">
+
+  <h3> Clustering </h3>
+     <p> In machine learning, clustering is an unsupervised learning technique that uses group to gather similar datapoints together without using labeled data. Instead of learning from labeled examples, the model searches for natural patterns in the data and groups items into clusters where members of the same group are more similar to each other than to those in other groups. 
+    This approach helps uncover hidden patterns, organize large collections of data, and separate users based on their behavior, such as finding customers with similar interests or detecting common structures in images and text.</p>
+  <img src="clustering.png" alt="clustering" class="mlpic1">
+     <p class="imgsource">Image Source: GeeksforGeeks</p>
+
+  <h4> Markov Desicion Process </h4>
+<p> A Markov Decision Process is a way to help a computer learn how to make decisions step by step, which is especially important in reinforcement learning. It looks at the current situation, called the state, and chooses an action that leads to the best possible future outcome. The key idea is that what happens next depends only on what is happening right now, not everything that happened before. By breaking a problem into states, actions, and the rewards it gets after each choice, the computer can slowly learn which decisions lead to better long-term results. Markov Decision Processes are used in many reinforcement learning tasks, like teaching a robot to move, helping an AI play games, or improving how apps make recommendations.</p>
+<img src="markov.png" alt="markov" class="mlpic1">
+    <p class="imgsource">Image Source: GeeksforGeeks</p>
+
+
+
+
+</div>
+ 
+<p> Eileen T, 2025 Capstone Project </p>
+
+</section>
+</body>
